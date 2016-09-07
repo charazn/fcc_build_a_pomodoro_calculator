@@ -1,0 +1,82 @@
+html, body {
+  font-size: 32px;
+  font-family: 'Italiana', serif;
+  background-color: #323232;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-top: 0.5rem;
+}
+
+
+#settings {
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#break {
+  margin-right: 4rem;
+}
+
+#break_buttons, #session_buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#break_minus, #break_plus, #session_plus, #session_minus {
+  background-color: white;
+  color: black;
+  padding: 0.1rem 0.25rem;
+  border-radius: 25%;
+  cursor: pointer;
+}
+
+#init_break_val, #init_session_val {
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#display {
+  margin: 1rem auto 0 auto;
+  width: 10rem;
+  height: 10rem;
+  border: 0.1rem solid white;
+  border-radius: 50%;
+}
+
+#nowOn {
+  margin-top: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+#start_stop {
+  margin: 0 auto;
+  width: 4rem;
+  background-color: green;
+  color: black;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+#timer_val {
+  font-size: 3rem;
+}
+
+#reset {
+  margin-top: 1rem;
+  font-size: 0.5rem;
+}
